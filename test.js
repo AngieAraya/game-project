@@ -79,7 +79,7 @@ function createTable() {
     table.appendChild(tableBody);
 
     // loopar igenom antalet columner som angetts
-    for (let i = 0; i < amountOfSquares; i++) {     // antal columner  
+    for (let i = 0; i < amountOfSquares; i++) {     // antal kolumner  
         //skapar ett element 'TR' och deklarerar den till tr  
         let tr = document.createElement('TR');       
         //lägger till tr elementet till tablebody  
